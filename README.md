@@ -5,4 +5,4 @@ In the master-2 branch, The assessment is done in Jersey framework, but due to e
 I then finished my assessment via Springboot, JPA, MYSQL and Hibernate
 In the master branch, the Springboot one is uploaded
 
-## Complete assessment with all tables and foreign keys = Main branch
+## Complete assessment with all tables and foreign keys = Master branch
