@@ -42,11 +42,9 @@ public class Car_Rental_Tracker {
 	
 	@NotNull
 	private String name;
-	
-	@NotNull
+
 	private LocalDateTime start_time;
-	
-	@NotNull
+
 	private LocalDateTime end_time;
 	
 	
