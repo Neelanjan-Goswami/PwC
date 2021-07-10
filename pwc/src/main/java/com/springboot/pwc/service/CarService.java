@@ -24,8 +24,16 @@ public class CarService {
 	
 	@Autowired
 	private CarRepository repository;
-		
+	
+	//@Autowired
+	//private CarInventoryRepository invrepo;
+	//above lines mentioned later in code
 	public Car saveCar(Car car) {
+		Car_Inventory exisitingCar = new Car_Inventory();
+		exisitingCar.setCar_id(car.getCar_id());
+		exisitingCar.setName(car.getName());
+		invrepo.save(exisitingCar);
+		
 		return repository.save(car);
 	}
 	
